@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 /* import './globals.css' */
-
-import NavTab from './../src/components/NavTab/NavTab';
+import './page.css';
+import NavTab from '@/src/components/NavTab/NavTab';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -19,17 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <NavTab />
-          {/* <Link href='/search'>{SearchButton}</Link>
-          <Link href='/'>Home</Link>
-          <Link href='/movies'>movies</Link>
-          <Link href='/tv'>TV</Link>
-          <Link href='/likes'>likes</Link>
-          <Link href='/account'>account</Link> */}
-        </nav>
-        <Link href='series'>Series</Link>
-        {children}</body>
+        <div style={{
+          display: 'flex',
+          flexDirection: 'row',
+          width: '100%'
+        }} >
+          <nav >
+            <NavTab />
+          </nav>
+          {/* <Link href='series'>Series</Link> */}
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

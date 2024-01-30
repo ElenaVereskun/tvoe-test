@@ -1,3 +1,17 @@
-.search-button{
-    background-color: black;
+.navtab{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #09090C;
+    height: 800px;
+    width: 54px;
+}
+.navtab__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+.navtab__search{
+    margin: 5px;
 }
