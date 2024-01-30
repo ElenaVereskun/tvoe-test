@@ -1,0 +1,44 @@
+.new-movies__title {
+    font-family: "TT Norms Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+
+.new-movies__items {
+    padding-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    column-gap: 44px;
+}
+
+.new-movies__item {
+    list-style: none;
+    width: 397px;
+    height: 653px;
+}
+
+.new-movies__caption {
+    color: var(--Main-White, #FFF);
+    font-family: "TT Norms Pro";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 397px;
+    text-align: left;
+    margin-top: 20px;
+}
+.new-movies__caption-link {
+    color: var(--Main-White, #FFF);
+    font-family: "TT Norms Pro";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 397px;
+    text-align: left;
+    text-decoration: none;
+}
