@@ -13,33 +13,30 @@ import Arrow from '@/src/images/arrow.svg';
 function NavTab() {
     return (
         <div className='navtab'>
-            <Image src={Logo} alt='лого' height={50}/>
+            <Image src={Logo} alt='лого' className='navtab__logo' height={50}/>
             <div className='navtab__container'>
                 <Link href="/search" className='navtab__search'>
                     <Image src={SearchButton} alt='поиск' width={44}
-                        height={44} />
+                    height={44} />
                 </Link>
                 <Link href="/" className='navtab__home'>
-                    <Image src={HomeButton} alt='домой' width={44}
-                        height={44} />
+                    <Image src={HomeButton} alt='домой'/>
                 </Link>
                 <Link href="/movies" className='navtab__movies'>
-                    <Image src={MoviesButton} alt='фильмы' width={44}
-                        height={44} />
+                    <Image src={MoviesButton} alt='фильмы' />
                 </Link>
                 <Link href="/tv" className='navtab__tv'>
-                    <Image src={TvButton} alt='тв' />
+                    <Image src={TvButton} alt='тв' width={44}
+                    height={44}/>
                 </Link>
                 <Link href="/likes" className='navtab__likes'>
-                    <Image src={LikesButton} alt='избранное' width={44}
-                        height={44} />
+                    <Image src={LikesButton} alt='избранное' />
                 </Link>
                 <Link href="/account" className='navtab__account'>
-                    <Image src={AccountButton} alt='аккаунт' width={44}
-                        height={44} />
+                    <Image src={AccountButton} alt='аккаунт'/>
                 </Link>
             </div>
-            <Image src={Arrow} alt='стрелка' />
+            <Image src={Arrow} alt='стрелка' className='navtab__arrow' />
         </div>
 
     );

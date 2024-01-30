@@ -30,7 +30,6 @@ function NewMovies() {
                     <caption className='new-movies__caption'>Поймай меня,если сможешь</caption>
                 </li>
             </ul>
-
         </section>
     );
 }

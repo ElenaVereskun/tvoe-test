@@ -1,0 +1,48 @@
+.views {}
+
+.views__title {
+    display: flex;
+    align-items: center;
+}
+
+.views__big-title {
+    font-family: "TT Norms Pro";
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    color: white;
+}
+
+.views__small-title {
+    color: var(--Main-White, #FFF);
+    font-family: "TT Norms Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.views__items {
+    display: flex;
+    column-gap: 100px;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 203px;
+}
+
+.views__item {
+    display: flex;
+    align-items: center;
+}
+
+.views__item-title {
+    font-family: Archivo;
+    font-size: 360px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    color: blue;
+    margin-right: -80px;
+}

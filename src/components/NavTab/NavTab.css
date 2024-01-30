@@ -6,6 +6,11 @@
     background-color: #09090C;
     height: 800px;
     width: 54px;
+    padding-left: 55px;
+    padding-right: 98px;
+}
+.navtab__logo{
+    padding-top: 40px;
 }
 .navtab__container{
     display: flex;
@@ -14,4 +19,7 @@
 }
 .navtab__search{
     margin: 5px;
+}
+.navtab__arrow{
+
 }

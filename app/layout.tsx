@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Link from 'next/link'
 /* import './globals.css' */
 import './page.css';
 import NavTab from '@/src/components/NavTab/NavTab';
@@ -24,10 +23,9 @@ export default function RootLayout({
           flexDirection: 'row',
           width: '100%'
         }} >
-          <nav >
+          <nav style={{backgroundColor:'#09090C'}} >
             <NavTab />
           </nav>
-          {/* <Link href='series'>Series</Link> */}
           {children}
         </div>
       </body>

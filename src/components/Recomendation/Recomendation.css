@@ -2,6 +2,7 @@
    /*  width: 1250px; */
     max-height: 800px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .recomendation__image {}
@@ -9,6 +10,7 @@
 .recomendation__container {
     position: absolute;
     top: 294px;
+    left:500px;
     text-align: center;
     width: 886px;
     height: 482px;
