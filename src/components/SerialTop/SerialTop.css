@@ -1,0 +1,96 @@
+.serial-top__container {
+    position: absolute;
+    top: 90px;
+}
+
+.serial-top__items {
+    color: white;
+    display: flex;
+    column-gap: 32px;
+    font-family: "TT Norms Pro";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.serial-top__item {
+    margin: 0;
+}
+
+.serial-top__about {
+    font-family: "TT Norms Pro";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Main-White, #FFF);
+    width: 735px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.serial-top__buttons {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.serial-top__viewing {
+    padding: 24px 32px 24px 32px;
+    text-align: center;
+    font-family: "TT Norms Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    border: none;
+    border-radius: 16px;
+    background: var(--Gradient-Accent, linear-gradient(90deg, #6A11CB 0%, #2575FC 100%));
+    color: #FFF;
+}
+
+.serial-top__trailer {
+    text-align: center;
+    font-family: "TT Norms Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFF;
+    padding: 24px 32px 24px 32px;
+    border-radius: 16px;
+    background: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+.serial-top__save {
+    border-radius: 16px;
+    background-color: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
+    border: none;
+}
+
+.serial-top__save-img {
+    padding: 24px 32px 24px 32px;
+    width: 32px;
+    height: 32px;
+
+}
+
+.serial-top__likes {
+    border-radius: 16px;
+    background-color: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
+    border: none;
+}
+
+.serial-top__likes-img {
+    border: none;
+    padding: 24px 32px 24px 32px;
+    width: 32px;
+    height: 32px;
+}

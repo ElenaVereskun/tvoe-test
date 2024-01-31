@@ -1,17 +1,15 @@
 import { React } from 'react';
 import SimilarSerial from '@/src/components/SimilarSerial/SimilarSerial';
+import SerialTop from '@/src/components/SerialTop/SerialTop';
+import Seasons from '@/src/components/Seasons/Seasons';
 
 export default function SerialPage() {
     return (
         <div className='serial-page'>
-            <section className='serial-page__top'>
-
-            </section>
-            <section className='serial-page__seasons'></section>
-            <section className='serial-page__about'></section>
+            <SerialTop />
+            <Seasons/>
             <SimilarSerial />
             <section className='serial-page__info'></section>
         </div>
-
     );
 };

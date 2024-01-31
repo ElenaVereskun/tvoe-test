@@ -1,0 +1,11 @@
+.serial-page {
+    background-color: #09090C;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+
+.serial-page {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,93 @@
+.seasons {
+    line-height: normal;
+    font-style: normal;
+    font-family: "TT Norms Pro";
+}
+
+.seasons__top {
+    display: flex;
+    align-items: center;
+    column-gap: 44px;
+    padding-bottom: 24px;
+}
+
+.seasons__title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.seasons__choice {
+    display: flex;
+    column-gap: 20px;
+}
+
+.seasons__choice-item {
+    color: #BABABA;
+    background-color: #232326;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.seasons__episodes {
+    display: flex;
+    column-gap: 20px;
+}
+
+.seasons__episod {}
+
+.seasons__episod-poster {
+    padding-bottom: 40px;
+}
+
+.seasons__episod-number {
+    color: var(--Main-White, #FFF);
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.seasons__episod-duration {
+    color: var(--Main-Gray, #BABABA);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.seasons__about {
+    padding-top: 60px;
+}
+
+.seasons__about-title {
+    color: var(--Main-White, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.seasons__about-info {
+    color: var(--Main-White, #FFF);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.seasons__about-warning {
+    display: flex;
+    column-gap: 20px;
+}
+
+.seasons__about-text {
+    color: var(--Main-Gray-Medium, #4B4B4B);
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+}
