@@ -1,9 +1,11 @@
+@import url(../static/fonts/stylesheet.css);
 @import url(../src/components/NavTab/NavTab.css);
 @import url(../src/components/Main/Main.css);
 @import url(../src/components/Recomendation/Recomendation.css);
 @import url(../src/components/NewMovies/NewMovies.css);
 @import url(../src/components/Views/Views.css);
 @import url(../src/components/SerialPage/SerialPage.css);
-@import url(../src/components/SimilarSerial/SimilarSerial.css);
+@import url(../src/components/SimilarSerials/SimilarSerials.css);
 @import url(../src/components/SerialTop/SerialTop.css);
 @import url(../src/components/Seasons/Seasons.css);
+@import url(../src/components/SimilarSerials/SimilarSerials.css);

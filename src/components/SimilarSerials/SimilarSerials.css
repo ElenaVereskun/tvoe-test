@@ -1,0 +1,16 @@
+.similar-serials__title{
+    font-family: "TT Norms Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+.similar-serials__items{
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 60px;
+}
