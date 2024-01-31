@@ -1,22 +1,12 @@
 .views {
-    padding-top: 97px;
+    padding-top: 103px;
 }
 
 .views__title {
     display: flex;
     align-items: center;
-    column-gap: 20px;
-    padding-bottom: 26px;
-}
-
-.views__big-title {
-    font-family: "TT Norms Pro";
-    font-size: 52px;
-    font-style: italic;
-    font-weight: 900;
-    line-height: normal;
-    color: blueviolet;
-    margin: 0;
+    column-gap: 29px;
+    padding-bottom: 34px;
 }
 
 .views__small-title {
@@ -52,6 +42,7 @@
     color: blue;
     margin-right: -80px;
 }
-.views__item-image{
+
+.views__item-image {
     margin-left: 43px;
 }

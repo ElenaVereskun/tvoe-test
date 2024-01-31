@@ -19,7 +19,7 @@ function NewMovies() {
                 </li>
                 <li className='new-movies__item'>
                     <Image src={HomeGame} alt='домашняя игра' />
-                    <p className='new-movies__caption'>Домашняя ига</p>
+                    <p className='new-movies__caption'>Домашняя игра</p>
                 </li>
                 <li className='new-movies__item'>
                     <Image src={Salut7} alt='салют 7' />

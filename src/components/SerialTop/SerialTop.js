@@ -41,9 +41,7 @@ export default function SerialTop() {
                         <Image className='serial-top__likes-img' src={LikesButton} alt='Избранное' />
                     </button>
                 </div>
-
             </div>
         </section>
-
     );
 };

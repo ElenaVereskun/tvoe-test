@@ -10,33 +10,31 @@ import LikesButton from '@/src/images/likes-button.svg';
 import AccountButton from '@/src/images/account-button.svg';
 import Arrow from '@/src/images/arrow.svg';
 
-function NavTab() {
+export default function NavTab() {
     return (
         <div className='navtab'>
-            <Image src={Logo} alt='лого' className='navtab__logo' height={50}/>
+            <Image src={Logo} alt='лого' className='navtab__logo' height={50} />
             <div className='navtab__container'>
                 <Link href="/search" className='navtab__search'>
                     <Image className='navtab__item' src={SearchButton} alt='поиск' />
                 </Link>
                 <Link href="/" className='navtab__home'>
-                    <Image className='navtab__item' src={HomeButton} alt='домой'/>
+                    <Image className='navtab__item' src={HomeButton} alt='домой' />
                 </Link>
                 <Link href="/movies" className='navtab__movies'>
                     <Image className='navtab__item' src={MoviesButton} alt='фильмы' />
                 </Link>
                 <Link href="/tv" className='navtab__tv'>
-                    <Image className='navtab__item' src={TvButton} alt='тв' /* style={{margin:'0px 5px 5px -5px'}} *//>
+                    <Image className='navtab__item' src={TvButton} alt='тв' /* style={{margin:'0px 5px 5px -5px'}} */ />
                 </Link>
                 <Link href="/likes" className='navtab__likes'>
                     <Image className='navtab__item' src={LikesButton} alt='избранное' />
                 </Link>
                 <Link href="/account" className='navtab__account'>
-                    <Image className='navtab__item' src={AccountButton} alt='аккаунт'/>
+                    <Image className='navtab__item' src={AccountButton} alt='аккаунт' />
                 </Link>
             </div>
             <Image src={Arrow} alt='стрелка' className='navtab__arrow' />
         </div>
-
     );
-}
-export default NavTab;
+};

@@ -10,7 +10,6 @@ function Main() {
             <NewMovies />
             <Views />
         </div>
-
     );
 }
 export default Main;

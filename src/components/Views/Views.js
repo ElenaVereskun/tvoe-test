@@ -6,13 +6,14 @@ import Witcher from '@/src/images/posterWitcher.png';
 import NumberOne from '@/src/images/numberOne.png';
 import NumberTwo from '@/src/images/numberTwo.png';
 import NumberThree from '@/src/images/numberThree.png';
+import Top10 from '@/src/images/top-10.svg';
 
 function Views() {
     return (
         <section className='views'>
             <div className='views__title'>
-                <h1 className='views__big-title'>ТОП-10</h1>
-                <h2 className='views__small-title'>просмотров за неделю</h2>
+                <Image className='views__big-title' src={Top10} alt='топ10'/>
+                <h1 className='views__small-title'>просмотров за неделю</h1>
             </div>
             <ul className='views__items'>
                 <li className='views__item'>
@@ -28,9 +29,7 @@ function Views() {
                     <Image className='views__item-image' src={Witcher} alt='Ведьмак'  style={{marginLeft:'10px'}}/>
                 </li>
             </ul>
-
         </section>
-
     );
 }
 export default Views;

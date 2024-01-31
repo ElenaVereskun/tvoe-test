@@ -22,17 +22,17 @@ export default function Seasons() {
             <div className='seasons__episodes'>
                 <div className='seasons__episod'>
                     <Image src={FirstEpisod} alt='1серия' className='seasons__episod-poster' />
-                    <p className='seasons__episod-number'>1</p>
+                    <p className='seasons__episod-number'>1 серия</p>
                     <p className='seasons__episod-duration'>43 минуты</p>
                 </div>
                 <div className='seasons__episod'>
                     <Image src={SecondEpisod} alt='2серия' className='seasons__episod-poster' />
-                    <p className='seasons__episod-number'>2</p>
+                    <p className='seasons__episod-number'>2 серия</p>
                     <p className='seasons__episod-duration'>41 минуту</p>
                 </div>
                 <div className='seasons__episod'>
                     <Image src={ThirdEpisod} alt='3серия' className='seasons__episod-poster' />
-                    <p className='seasons__episod-number'>3</p>
+                    <p className='seasons__episod-number'>3 серия</p>
                     <p className='seasons__episod-duration'>38 минут</p>
                 </div>
             </div>

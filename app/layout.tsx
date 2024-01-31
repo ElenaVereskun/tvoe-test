@@ -16,14 +16,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="ru">
+      <body className={inter.className}
+        style={{ backgroundColor: '#09090C' }}>
         <div style={{
           display: 'flex',
-          flexDirection: 'row',
-          maxWidth:'1280px'
+          flexDirection: 'row'
         }} >
-          <nav style={{backgroundColor:'#09090C'}} >
+          <nav  >
             <NavTab />
           </nav>
           {children}

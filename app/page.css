@@ -1,4 +1,4 @@
-@import url(../static/fonts/stylesheet.css);
+@import url(../src/fonts/stylesheet.css);
 @import url(../src/components/NavTab/NavTab.css);
 @import url(../src/components/Main/Main.css);
 @import url(../src/components/Recomendation/Recomendation.css);

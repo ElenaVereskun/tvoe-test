@@ -60,7 +60,7 @@
     font-weight: 500;
     line-height: 32px;
     color: #FFF;
-    padding: 24px 32px 24px 32px;
+    padding: 24px 38px 24px 32px;
     border-radius: 16px;
     background: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
     backdrop-filter: blur(10px);
@@ -74,7 +74,7 @@
 }
 
 .serial-top__save-img {
-    padding: 24px 32px 24px 32px;
+    padding: 24px 24px 24px 24px;
     width: 32px;
     height: 32px;
 
@@ -87,7 +87,7 @@
 }
 
 .serial-top__likes-img {
-    padding: 24px 32px 24px 32px;
+    padding: 24px 24px 24px 24px;
     width: 32px;
     height: 32px;
 }
