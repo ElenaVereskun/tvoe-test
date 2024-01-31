@@ -21,11 +21,11 @@ function Views() {
                 </li>
                 <li className='views__item'>
                     <Image className='views__item-title' src={NumberTwo} alt='рейтинг 2' />
-                    <Image className='views__item-image' src={Notification} alt='Красное уведомление' />
+                    <Image className='views__item-image' src={Notification} alt='Красное уведомление' style={{marginLeft:'10px'}} />
                 </li>
                 <li className='views__item'>
                     <Image className='views__item-title' src={NumberThree} alt='рейтинг 3' />
-                    <Image className='views__item-image' src={Witcher} alt='Ведьмак' />
+                    <Image className='views__item-image' src={Witcher} alt='Ведьмак'  style={{marginLeft:'10px'}}/>
                 </li>
             </ul>
 

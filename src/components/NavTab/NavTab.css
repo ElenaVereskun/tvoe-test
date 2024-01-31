@@ -4,22 +4,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #09090C;
-    height: 800px;
     width: 54px;
     padding-left: 55px;
     padding-right: 98px;
 }
 .navtab__logo{
-    padding-top: 40px;
+    padding-top: 32px;
+    padding-bottom: 110px;
 }
 .navtab__container{
     display: flex;
     flex-direction: column;
     row-gap: 28px;
-}
-.navtab__search{
-    margin: 5px;
-}
-.navtab__arrow{
-
+    width: 54px;
+    height: 464px;
+    margin-bottom: 280px;
 }

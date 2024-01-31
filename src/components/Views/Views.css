@@ -1,8 +1,12 @@
-.views {}
+.views {
+    padding-top: 97px;
+}
 
 .views__title {
     display: flex;
     align-items: center;
+    column-gap: 20px;
+    padding-bottom: 26px;
 }
 
 .views__big-title {
@@ -11,7 +15,8 @@
     font-style: italic;
     font-weight: 900;
     line-height: normal;
-    color: white;
+    color: blueviolet;
+    margin: 0;
 }
 
 .views__small-title {
@@ -21,6 +26,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .views__items {
@@ -45,4 +51,7 @@
     line-height: normal;
     color: blue;
     margin-right: -80px;
+}
+.views__item-image{
+    margin-left: 43px;
 }

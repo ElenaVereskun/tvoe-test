@@ -21,7 +21,7 @@ export default function RootLayout({
         <div style={{
           display: 'flex',
           flexDirection: 'row',
-          width: '100%'
+          maxWidth:'1280px'
         }} >
           <nav style={{backgroundColor:'#09090C'}} >
             <NavTab />
