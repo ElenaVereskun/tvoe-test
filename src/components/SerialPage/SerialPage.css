@@ -3,9 +3,8 @@
     text-align: left;
     display: flex;
     position: relative;
-}
-
-.serial-page {
-    display: flex;
+    font-style: normal;
     flex-direction: column;
+    font-family: "TT Norms Pro";
+    margin-left: -8px;
 }

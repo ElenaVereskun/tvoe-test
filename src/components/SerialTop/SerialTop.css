@@ -1,19 +1,23 @@
+.serial-top__image {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+
 .serial-top__container {
     position: absolute;
-    top: 90px;
+    top: 82px;
 }
 
 .serial-top__items {
     color: white;
     display: flex;
-    column-gap: 32px;
-    font-family: "TT Norms Pro";
+    column-gap: 37px;
     font-size: 28px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     align-items: center;
-    padding-top: 32px;
+    padding-top: 21px;
 }
 
 .serial-top__item {
@@ -21,15 +25,13 @@
 }
 
 .serial-top__about {
-    font-family: "TT Norms Pro";
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: var(--Main-White, #FFF);
     width: 735px;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 13px;
 }
 
 .serial-top__buttons {
@@ -43,9 +45,7 @@
 .serial-top__viewing {
     padding: 24px 32px 24px 32px;
     text-align: center;
-    font-family: "TT Norms Pro";
     font-size: 30px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
     border: none;
@@ -56,9 +56,7 @@
 
 .serial-top__trailer {
     text-align: center;
-    font-family: "TT Norms Pro";
     font-size: 30px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
     color: #FFF;
@@ -71,8 +69,8 @@
 
 .serial-top__save {
     border-radius: 16px;
-    background-color: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
     border: none;
+    background: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
 }
 
 .serial-top__save-img {
@@ -84,12 +82,11 @@
 
 .serial-top__likes {
     border-radius: 16px;
-    background-color: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
     border: none;
+    background: var(--gradient-white-50, linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%));
 }
 
 .serial-top__likes-img {
-    border: none;
     padding: 24px 32px 24px 32px;
     width: 32px;
     height: 32px;

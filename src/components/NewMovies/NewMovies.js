@@ -13,21 +13,21 @@ function NewMovies() {
             <ul className='new-movies__items'>
                 <li className='new-movies__item'>
                     <Image src={BlueBeetle} alt='синий жук' />
-                    <caption className='new-movies__caption'>
+                    <p className='new-movies__caption'>
                         <Link href='series' className='new-movies__caption-link'>Синий жук</Link>
-                    </caption>
+                    </p>
                 </li>
                 <li className='new-movies__item'>
                     <Image src={HomeGame} alt='домашняя игра' />
-                    <caption className='new-movies__caption'>Домашняя ига</caption>
+                    <p className='new-movies__caption'>Домашняя ига</p>
                 </li>
                 <li className='new-movies__item'>
                     <Image src={Salut7} alt='салют 7' />
-                    <caption className='new-movies__caption'>Салют 7</caption>
+                    <p className='new-movies__caption'>Салют 7</p>
                 </li>
                 <li className='new-movies__item'>
                     <Image src={CatchMe} alt='поймай меня' />
-                    <caption className='new-movies__caption'>Поймай меня,если сможешь</caption>
+                    <p className='new-movies__caption'>Поймай меня,если сможешь</p>
                 </li>
             </ul>
         </section>

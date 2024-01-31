@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Wednesday from '@/src/images/posterWednesday.png';
 import Yenz from '@/src/images/Уэнз.png';
 import Day from '@/src/images/дэй.png';
-import SaveButton from '@/src/images/likes-button.svg';
-import LikesButton from '@/src/images/likes-button.svg';
+import SaveButton from '@/src/images/SaveButton.svg';
+import LikesButton from '@/src/images/likeButton.svg';
 
 export default function SerialTop() {
     return (
